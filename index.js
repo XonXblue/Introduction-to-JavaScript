@@ -18,6 +18,8 @@ Do the following:
    HINT: no function required
 */
 
+var votingAge = 18;
+return(votingAge)
 
 
 /*
@@ -29,7 +31,17 @@ Do the following:
    3. Return the new value of the 1st variable
 
    HINT: no function required
+  
 */
+let javaScript = 'is working';
+let i=0;
+while(javaScript=== 'is fun'){
+  console.log('javaScript is working well!')
+  i++
+  if(i>5){
+    javaScript='is NOT fun!';
+  }
+}
 
 
 
@@ -45,6 +57,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+var num1= `1999`
+var integar = parseInt(x,1999);
+return(parseInt)
+console.log(parseInt)
 
 
 
@@ -58,9 +74,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a * b;
+
   }
+  console.log(multiply(5,4));
+
 
 
 
@@ -74,8 +93,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(d1,h2) {
+  return d1 * h2;
+  console.log(multiply(2,7));
+  
+  /*add your code here*/
 }
 
 
